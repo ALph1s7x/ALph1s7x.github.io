@@ -90,7 +90,7 @@ function App() {
       <p>температура: {temperature}</p>
       <p>давление: {humidity}</p>
       <p>влажность: {pressure}</p>
-      <p>скорость ветра: {speedWind}</p>
+      <p>скорость ветра: {speedWind}</p>;
       <p>порыв ветра: {gustWind}</p>
       {errorMessage && <p className="error">{errorMessage}</p>}
     </div>
